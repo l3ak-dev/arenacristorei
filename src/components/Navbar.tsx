@@ -166,7 +166,7 @@ const Navbar = () => {
         <Flex display={{ base: 'none', md: 'flex' }} gap={4} align="center">
           <IconButton
             as="a"
-            href="https://wa.me/seu-numero"
+            href="https://wa.me/5565999882492"
             target="_blank"
             aria-label="WhatsApp"
             icon={<FaWhatsapp />}
@@ -175,14 +175,14 @@ const Navbar = () => {
           />
           <IconButton
             as="a"
-            href="https://instagram.com/seu-perfil"
+            href="https://www.instagram.com/arenacristorei_oficial/"
             target="_blank"
             aria-label="Instagram"
             icon={<FaInstagram />}
             colorScheme="brand"
             variant="ghost"
           />
-          <Button colorScheme="brand" size="sm">
+          <Button colorScheme="brand" size="sm" as={Link} to="/precos">
             Reservar Agora
           </Button>
         </Flex>
@@ -211,7 +211,7 @@ const Navbar = () => {
           <ChakraLink as={Link} to="/galeria" color="gray.700">Galeria</ChakraLink>
           <ChakraLink as={Link} to="/contato" color="gray.700">Contato</ChakraLink>
           <ChakraLink as={Link} to="/blog" color="gray.700">Blog</ChakraLink>
-          <Button colorScheme="brand" size="sm" w="full">
+          <Button colorScheme="brand" size="sm" w="full" as={Link} to="/precos">
             Reservar Agora
           </Button>
         </Flex>

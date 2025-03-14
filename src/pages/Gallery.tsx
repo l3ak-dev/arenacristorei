@@ -10,7 +10,14 @@ const MotionBox = motion(Box)
 const galleryItems = [
   {
     type: 'video',
-    thumbnail: 'https://images.unsplash.com/photo-1562552052-4e9f2d8e8a4e?auto=format&fit=crop&w=800&h=600&q=80',
+    thumbnail: '/gallery/quadra-banner2.jpg',
+    videoUrl: '/gallery/videochurrasqueira.mp4',
+    title: 'Área de Churrasqueira e Lazer da Arena Cristo Rei - Espaço para Confraternização',
+    aspectRatio: 16/9
+  },
+  {
+    type: 'video',
+    thumbnail: '/gallery/quadra-banner2.jpg',
     videoUrl: '/gallery/quadra1.mp4',
     title: 'Vista Aérea da Arena Cristo Rei - Quadras de Areia em Várzea Grande MT',
     aspectRatio: 4/3
